@@ -2,7 +2,7 @@ import './Nav.css'
 
 export default function Nav() {
     return (
-        <aside className="logo">
+        <aside className="menu-area">
             Navegação
         </aside>
     )

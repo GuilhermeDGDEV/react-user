@@ -7,7 +7,7 @@ import Footer from '../template/Footer'
 
 export default function App() {
     return (
-        <div>
+        <div className="app">
             <Logo />
             <Nav />
             <Main />
