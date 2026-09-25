@@ -1,10 +1,10 @@
 import './Main.css'
 import Header from './Header'
 
-export default function Main() {
+export default function Main(props) {
     return (
         <>
-            <Header></Header>
+            <Header {...props} />
             <main className="content">
                 Conteúdo
             </main>

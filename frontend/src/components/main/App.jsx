@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 import Logo from '../template/Logo'
@@ -10,7 +11,7 @@ export default function App() {
         <div className="app">
             <Logo />
             <Nav />
-            <Main />
+            <Main icon="home" title="Início" subtitle="Projeto CRUD de React" />
             <Footer />
         </div>
     )
