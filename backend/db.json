@@ -1,11 +1,15 @@
 {
-    "users": [{
-        "id": 1,
-        "nome": "Guilherme Dias",
-        "email": "guilherme@gmail.com"
-    }, {
-        "id": 2,
-        "nome": "Gustavo Dias",
-        "email": "gustavo@gmail.com"
-    }]
+  "users": [
+    {
+      "id": "1",
+      "name": "Guilherme Dia",
+      "email": "guilherme@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Gustavo Dias",
+      "email": "gustavo@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
