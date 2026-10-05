@@ -10,3 +10,9 @@ aside.logo img {
     width: 100%;
     border-radius: 65px;
 }
+
+@media(max-width: 576px) {
+    aside.logo img {
+        width: 245px;
+    }
+}
